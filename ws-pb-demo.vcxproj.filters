@@ -13,5 +13,27 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="pb">
+      <UniqueIdentifier>{8cc2872e-cb89-45a9-adf4-45c7b1d03f23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pb\socket">
+      <UniqueIdentifier>{64b31801-6c29-4536-929d-9671a2566f7f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="socket.pb.cc">
+      <Filter>pb\socket</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MessageWrapper.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="socket.pb.h">
+      <Filter>pb\socket</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
