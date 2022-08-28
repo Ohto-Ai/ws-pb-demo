@@ -35,5 +35,8 @@
     <ClInclude Include="socket.pb.h">
       <Filter>pb\socket</Filter>
     </ClInclude>
+    <ClInclude Include="FactoryMethod.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

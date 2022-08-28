@@ -1,4 +1,4 @@
-#include <websocketpp/client.hpp>
+﻿#include <websocketpp/client.hpp>
 #include <websocketpp/config/asio_no_tls_client.hpp>
 #include <websocketpp/common/thread.hpp>
 
@@ -9,6 +9,26 @@
 
 int main()
 {
+	// 配置log等级
+#ifdef _DEBUG
+	spdlog::set_level(spdlog::level::debug);
+#endif
+
+	// 读取路由表
+	CommandRouterMap::instance().load("socket.router.json");
+
+	// 注册工厂
+	ohtoai::ProductRegistrar<google::protobuf::Message
+		, pb::socket::UserInfo>
+		_userInfoRegistrar(pb::socket::UserInfo{}.GetTypeName());
+	ohtoai::ProductRegistrar<google::protobuf::Message
+		, pb::socket::UserLogin>
+		_userLoginRegistrar(pb::socket::UserLogin{}.GetTypeName());
+	ohtoai::ProductRegistrar<google::protobuf::Message
+		, pb::socket::ExternalMessage>
+		_externalMessageRegistrar(pb::socket::ExternalMessage{}.GetTypeName());
+
+
 	// Check protobuf
 	{
 		spdlog::info("Check protobuf");
@@ -28,7 +48,7 @@ int main()
 
 		auto info_receive = wrapper_receive.object<UserInfo>();
 		UserInfo info_receive2;
-		wrapper_receive.parseToObject(info_receive2);
+		wrapper_receive.toObject(info_receive2);
 
 		spdlog::info("info_receive name = {}, id = {}", info_receive.name(), info_receive.id());
 		spdlog::info("info_receive2 name = {}, id = {}", info_receive2.name(), info_receive2.id());
@@ -64,26 +84,22 @@ int main()
 			spdlog::info("Message Handler = {}", hdl.lock().get());
 			spdlog::info("payload[{} bytes] = {}", msg->get_payload().size(), msg->get_payload());
 
-			MessageWrapper wrapper;
-			
-			wrapper.parseFromString(msg->get_payload());
-			
-			auto userInfo = wrapper.object<UserInfo>();
-			
+			auto userInfo = MessageWrapper::FromString(msg->get_payload()).object<UserInfo>();
+
 			spdlog::info("user.name = {}, user.id = {}, user.jwt = {}", userInfo.name(), userInfo.id(), userInfo.jwt());
 			});
 
-		
+
 		websocketpp::client<websocketpp::config::asio_client>::connection_ptr connection;
 		client.set_open_handler([&](websocketpp::lib::weak_ptr<void> d) {
-			
+
 			MessageWrapper wrapper;
-			
+
 			pb::socket::UserLogin userLogin;
 			userLogin.set_username("user");
 			userLogin.set_password("123");
 
-			wrapper.setCmdCode(15 << 16);
+			wrapper.setRouter(userLogin);
 			wrapper.setData(userLogin);
 
 			client.send(connection->get_handle(), wrapper.serializeAsString(), websocketpp::frame::opcode::binary);
