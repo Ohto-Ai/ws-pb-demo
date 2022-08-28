@@ -105,7 +105,7 @@ int main()
 			client.send(connection->get_handle(), wrapper.serializeAsString(), websocketpp::frame::opcode::binary);
 			});
 		websocketpp::lib::error_code ec;
-		connection = client.get_connection("ws://192.168.31.207:10100/websocket", ec);
+		connection = client.get_connection("ws://game.ohtoai.top/websocket", ec);
 
 		if (ec) {
 			spdlog::error("Could not create connection because: {}", ec.message());
