@@ -74,7 +74,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>ASIO_STANDALONE;_WEBSOCKETPP_CPP11_INTERNAL_;ASIO_HAS_STD_TYPE_TRAITS;ASIO_HAS_STD_SHARED_PTR;ASIO_HAS_STD_ADDRESSOF;ASIO_HAS_STD_ATOMIC;ASIO_HAS_STD_CHRONO;ASIO_HAS_CSTDINT;ASIO_HAS_STD_ARRAY;ASIO_HAS_STD_SYSTEM_ERROR;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>ASIO_STANDALONE;_WEBSOCKETPP_CPP11_INTERNAL_;ASIO_HAS_STD_TYPE_TRAITS;ASIO_HAS_STD_SHARED_PTR;ASIO_HAS_STD_ADDRESSOF;ASIO_HAS_STD_ATOMIC;ASIO_HAS_STD_CHRONO;ASIO_HAS_CSTDINT;ASIO_HAS_STD_ARRAY;ASIO_HAS_STD_SYSTEM_ERROR;SPDLOG_ACTIVE_LEVEL;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>inc; inc/asio</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
@@ -122,7 +122,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>ASIO_STANDALONE;_WEBSOCKETPP_CPP11_INTERNAL_;ASIO_HAS_STD_TYPE_TRAITS;ASIO_HAS_STD_SHARED_PTR;ASIO_HAS_STD_ADDRESSOF;ASIO_HAS_STD_ATOMIC;ASIO_HAS_STD_CHRONO;ASIO_HAS_CSTDINT;ASIO_HAS_STD_ARRAY;ASIO_HAS_STD_SYSTEM_ERROR;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>ASIO_STANDALONE;_WEBSOCKETPP_CPP11_INTERNAL_;ASIO_HAS_STD_TYPE_TRAITS;ASIO_HAS_STD_SHARED_PTR;ASIO_HAS_STD_ADDRESSOF;ASIO_HAS_STD_ATOMIC;ASIO_HAS_STD_CHRONO;ASIO_HAS_CSTDINT;ASIO_HAS_STD_ARRAY;ASIO_HAS_STD_SYSTEM_ERROR;SPDLOG_ACTIVE_LEVEL;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>inc; inc/asio</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
@@ -171,6 +171,7 @@
     <ClCompile Include="socket.pb.cc" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="FactoryMethod.hpp" />
     <ClInclude Include="MessageWrapper.hpp" />
     <ClInclude Include="socket.pb.h" />
   </ItemGroup>
