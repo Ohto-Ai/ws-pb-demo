@@ -30,7 +30,7 @@ This repository is used to demonstrate the use of Protobuf and WebSocket.
 [email:badge]: https://img.shields.io/badge/mail-ohtoai.choo@gmail.com-blue.svg?style=for-the-badge
 [email]: mailto:ohtoai.choo@gmail.com?subject=Feedback&body=This%20is%20a%20test%20feedback.
 
-[last-modify:badge]: https://img.shields.io/badge/last_modify-2022--08--29_02:39:27-orange.svg?style=for-the-badge
+[last-modify:badge]: https://img.shields.io/badge/last_modify-2022--08--29_21:22:00-orange.svg?style=for-the-badge
 
 [update-modify:badge]: https://github.com/Ohto-Ai/ws-pb-demo/actions/workflows/update-modify.yaml/badge.svg
 [update-modify]: https://github.com/Ohto-Ai/ws-pb-demo/actions/workflows/update-modify.yaml
