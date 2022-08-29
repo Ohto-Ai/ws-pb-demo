@@ -32,22 +32,22 @@ This repository is used to demonstrate the use of Protobuf and WebSocket.
 
 [last-modify:badge]: https://img.shields.io/badge/last_modify-2022--08--29_02:39:27-orange.svg?style=for-the-badge
 
-[update-modify:badge]: https://github.com/FirstGameDevOrg/ws-pb-demo/actions/workflows/update-modify.yaml/badge.svg
-[update-modify]: https://github.com/FirstGameDevOrg/ws-pb-demo/actions/workflows/update-modify.yaml
+[update-modify:badge]: https://github.com/Ohto-Ai/ws-pb-demo/actions/workflows/update-modify.yaml/badge.svg
+[update-modify]: https://github.com/Ohto-Ai/ws-pb-demo/actions/workflows/update-modify.yaml
 
-[license:badge]: https://img.shields.io/github/license/FirstGameDevOrg/ws-pb-demo?logo=github&style=for-the-badge
+[license:badge]: https://img.shields.io/github/license/Ohto-Ai/ws-pb-demo?logo=github&style=for-the-badge
 
-[issues:badge]: https://img.shields.io/github/issues/FirstGameDevOrg/ws-pb-demo?logo=github&style=for-the-badge
-[issues]: https://github.com/FirstGameDevOrg/ws-pb-demo/issues
+[issues:badge]: https://img.shields.io/github/issues/Ohto-Ai/ws-pb-demo?logo=github&style=for-the-badge
+[issues]: https://github.com/Ohto-Ai/ws-pb-demo/issues
 
-[stargazers:badge]: https://img.shields.io/github/stars/FirstGameDevOrg/ws-pb-demo?logo=github&style=for-the-badge
-[stargazers]: https://github.com/FirstGameDevOrg/ws-pb-demo/stargazers
+[stargazers:badge]: https://img.shields.io/github/stars/Ohto-Ai/ws-pb-demo?logo=github&style=for-the-badge
+[stargazers]: https://github.com/Ohto-Ai/ws-pb-demo/stargazers
 
-[pulls:badge]: https://img.shields.io/github/issues-pr/FirstGameDevOrg/ws-pb-demo?logo=github&color=0088ff&style=for-the-badge
-[pulls]: https://github.com/FirstGameDevOrg/ws-pb-demo/pulls
+[pulls:badge]: https://img.shields.io/github/issues-pr/Ohto-Ai/ws-pb-demo?logo=github&color=0088ff&style=for-the-badge
+[pulls]: https://github.com/Ohto-Ai/ws-pb-demo/pulls
 
-[commit-activity:badge]: https://img.shields.io/github/commit-activity/m/FirstGameDevOrg/ws-pb-demo?logo=github&style=for-the-badge
-[commit-activity]: https://github.com/FirstGameDevOrg/ws-pb-demo/pulse
+[commit-activity:badge]: https://img.shields.io/github/commit-activity/m/Ohto-Ai/ws-pb-demo?logo=github&style=for-the-badge
+[commit-activity]: https://github.com/Ohto-Ai/ws-pb-demo/pulse
 
-[contributors:badge]: https://img.shields.io/github/contributors/FirstGameDevOrg/ws-pb-demo?logo=github&style=for-the-badge
-[contributors]: https://github.com/FirstGameDevOrg/ws-pb-demo/contributors
+[contributors:badge]: https://img.shields.io/github/contributors/Ohto-Ai/ws-pb-demo?logo=github&style=for-the-badge
+[contributors]: https://github.com/Ohto-Ai/ws-pb-demo/contributors
