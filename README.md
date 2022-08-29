@@ -1,6 +1,6 @@
 # protobuf & websocket demo
 
-| Update | [![Update days][update-days:badge]][update-days] |
+| Update | [![Update Modify][update-modify:badge]][update-modify] |
 | ------ | ------------------------------------------------ |
 |[![License][license:badge]](/LICENSE)|[![Issues][issues:badge]][issues]|
 |[![Stargazers][stargazers:badge]][stargazers]|[![Pulls][pulls:badge]][pulls]|
@@ -32,8 +32,8 @@ This repository is used to demonstrate the use of Protobuf and WebSocket.
 
 [last-modify:badge]: https://img.shields.io/badge/last_modify-2022--08--29_02:39:27-orange.svg?style=for-the-badge
 
-[update-days:badge]: https://github.com/FirstGameDevOrg/ws-pb-demo/actions/workflows/update-days.yaml/badge.svg
-[update-days]: https://github.com/FirstGameDevOrg/ws-pb-demo/actions/workflows/update-days.yaml
+[update-modify:badge]: https://github.com/FirstGameDevOrg/ws-pb-demo/actions/workflows/update-modify.yaml/badge.svg
+[update-modify]: https://github.com/FirstGameDevOrg/ws-pb-demo/actions/workflows/update-modify.yaml
 
 [license:badge]: https://img.shields.io/github/license/FirstGameDevOrg/ws-pb-demo?logo=github&style=for-the-badge
 
