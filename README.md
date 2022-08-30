@@ -27,27 +27,27 @@ This repository is used to demonstrate the use of Protobuf and WebSocket.
 
 [![Feedback][email:badge]][email]
 
-[email:badge]: https://img.shields.io/badge/mail-ohtoai.choo@gmail.com-blue.svg?style=for-the-badge
+[email:badge]: https://img.shields.io/badge/mail-ohtoai.choo@gmail.com-blue.svg?style=flat-square
 [email]: mailto:ohtoai.choo@gmail.com?subject=Feedback&body=This%20is%20a%20test%20feedback.
 
-[last-modify:badge]: https://img.shields.io/badge/last_modify-2022--08--29_21:22:00-orange.svg?style=for-the-badge
+[last-modify:badge]: https://img.shields.io/badge/last_modify-2022--08--29_21:22:00-orange.svg?style=flat-square
 
 [update-modify:badge]: https://github.com/Ohto-Ai/ws-pb-demo/actions/workflows/update-modify.yaml/badge.svg
 [update-modify]: https://github.com/Ohto-Ai/ws-pb-demo/actions/workflows/update-modify.yaml
 
-[license:badge]: https://img.shields.io/github/license/Ohto-Ai/ws-pb-demo?logo=github&style=for-the-badge
+[license:badge]: https://img.shields.io/github/license/Ohto-Ai/ws-pb-demo?logo=github&style=flat-square
 
-[issues:badge]: https://img.shields.io/github/issues/Ohto-Ai/ws-pb-demo?logo=github&style=for-the-badge
+[issues:badge]: https://img.shields.io/github/issues/Ohto-Ai/ws-pb-demo?logo=github&style=flat-square
 [issues]: https://github.com/Ohto-Ai/ws-pb-demo/issues
 
-[stargazers:badge]: https://img.shields.io/github/stars/Ohto-Ai/ws-pb-demo?logo=github&style=for-the-badge
+[stargazers:badge]: https://img.shields.io/github/stars/Ohto-Ai/ws-pb-demo?logo=github&style=flat-square
 [stargazers]: https://github.com/Ohto-Ai/ws-pb-demo/stargazers
 
-[pulls:badge]: https://img.shields.io/github/issues-pr/Ohto-Ai/ws-pb-demo?logo=github&color=0088ff&style=for-the-badge
+[pulls:badge]: https://img.shields.io/github/issues-pr/Ohto-Ai/ws-pb-demo?logo=github&color=0088ff&style=flat-square
 [pulls]: https://github.com/Ohto-Ai/ws-pb-demo/pulls
 
-[commit-activity:badge]: https://img.shields.io/github/commit-activity/m/Ohto-Ai/ws-pb-demo?logo=github&style=for-the-badge
+[commit-activity:badge]: https://img.shields.io/github/commit-activity/m/Ohto-Ai/ws-pb-demo?logo=github&style=flat-square
 [commit-activity]: https://github.com/Ohto-Ai/ws-pb-demo/pulse
 
-[contributors:badge]: https://img.shields.io/github/contributors/Ohto-Ai/ws-pb-demo?logo=github&style=for-the-badge
+[contributors:badge]: https://img.shields.io/github/contributors/Ohto-Ai/ws-pb-demo?logo=github&style=flat-square
 [contributors]: https://github.com/Ohto-Ai/ws-pb-demo/contributors
